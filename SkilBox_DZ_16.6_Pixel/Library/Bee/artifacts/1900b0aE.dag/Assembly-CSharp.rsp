@@ -410,9 +410,11 @@
 "Assets/Pixel UI/Scripts/UITabbedWindow.cs"
 "Assets/Pixel UI/Scripts/UITooltip.cs"
 "Assets/Pixel UI/Scripts/UITypewriter.cs"
-"Assets/Scripts/PlayerMovement.cs"
-"Assets/Scripts/SpawnChunk.cs"
-"Assets/Scripts/TriggerChunk.cs"
+"Assets/Scripts/Chunk/SpawnChunk.cs"
+"Assets/Scripts/Chunk/TriggerChunk.cs"
+"Assets/Scripts/LvlController.cs"
+"Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Texture/TextureMove.cs"
 -langversion:9.0
 
 /deterministic
