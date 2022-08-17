@@ -530,7 +530,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &476638146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1225,7 +1225,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 2104411082}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 1fc3d551ff5b06045bfbb2771f7c0bb7, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1275,7 +1275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cb37a9ed00e1cb4ca021bed9f088d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 1000
   power: 500
   onGround: 0
   groundCheck: {fileID: 748366779}
@@ -1306,6 +1306,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5929576347325739500, guid: db87fbd7555b7e04cb7aa6eb713e4efe, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5929576347493844694, guid: db87fbd7555b7e04cb7aa6eb713e4efe, type: 3}
       propertyPath: m_SortingOrder
       value: 1
